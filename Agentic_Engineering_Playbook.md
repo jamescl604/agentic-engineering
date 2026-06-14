@@ -16,6 +16,8 @@ Use this playbook as a lightweight operating model for:
 
 Start with the overview, then jump to the workflow you need. The topic files are intentionally focused so humans and agents can find the right guidance quickly.
 
+New to professional software engineering? Start with [Engineering practices](docs/engineering-practices.md) — a standalone field guide covering code design, testing, debugging, security, observability, and the working habits that make an engineer effective. Everything else in this playbook builds on those fundamentals.
+
 Experienced engineers who want to start immediately should read the [One-hour quickstart](training/quickstart.md).
 
 New employees should start with [Agentic engineering training](training/README.md), which teaches the playbook through hands-on practice in a simple fictitious repo.

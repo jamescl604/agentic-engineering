@@ -8,6 +8,7 @@ The goal is not to run the most agents. The goal is to merge more small, safe, r
 
 | You are… | Start here |
 |---|---|
+| New to professional software engineering | [Engineering practices](docs/engineering-practices.md) — a standalone field guide to the habits, practices, and mindset that separate professional engineering from code that happens to work |
 | An experienced engineer who wants to start immediately | [One-hour quickstart](training/quickstart.md) |
 | New to agentic engineering and want structured training | [Training curriculum](training/README.md) |
 | Looking for the full playbook and guide map | [Agentic Engineering Playbook](Agentic_Engineering_Playbook.md) |
@@ -28,7 +29,7 @@ The goal is not to run the most agents. The goal is to merge more small, safe, r
 ## Guide Map
 
 **Practices and workflow**
-- [Engineering practices](docs/engineering-practices.md)
+- [Engineering practices](docs/engineering-practices.md) — start here if you are new to professional software engineering
 - [Agentic engineering overview](docs/agentic-engineering-overview.md)
 - [Claude Code operating model](docs/claude-code-operating-model.md)
 - [Worktrees and parallel work](docs/worktrees-and-parallel-work.md)
