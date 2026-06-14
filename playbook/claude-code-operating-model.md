@@ -121,6 +121,24 @@ First:
 
 ## Daily Claude Code Loop
 
+```mermaid
+flowchart TD
+    A[Start on clean branch/worktree] --> B[Ask Claude to inspect and plan]
+    B --> C{Plan acceptable?}
+    C -- Modify --> B
+    C -- Approve --> D[Claude implements]
+    D --> E[Run focused tests]
+    E --> F{Tests pass?}
+    F -- No --> D
+    F -- Yes --> G[Review the diff yourself]
+    G --> H{Diff looks right?}
+    H -- No --> D
+    H -- Yes --> I[Claude reviewer-mode pass]
+    I --> J[Run broader validation]
+    J --> K[Open PR with clear summary]
+    K --> L[CI and human review decide merge]
+```
+
 1. Start on a clean branch/worktree.
 2. Ask Claude to inspect and plan.
 3. Approve or modify the plan.

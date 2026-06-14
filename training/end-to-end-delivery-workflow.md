@@ -6,21 +6,27 @@ Use this workflow for Acme Orders training and adapt it to the production repo.
 
 ## Lifecycle
 
-```text
-Backlog item
--> refinement
--> Ready for Agent
--> assignee assigned
--> branch and worktree created
--> plan-first implementation
--> local validation
--> PR opened
--> review and CI
--> ready to merge
--> release readiness
--> release
--> post-release verification
--> cleanup and learning capture
+```mermaid
+flowchart TD
+    A[Backlog item] --> B[Refinement]
+    B --> C[Ready for Agent]
+    C --> D[Assignee assigned]
+    D --> E[Branch and worktree created]
+    E --> F[Plan-first implementation]
+    F --> G{Plan approved?}
+    G -- No --> F
+    G -- Yes --> H[Implementation]
+    H --> I[Local validation]
+    I --> J{Validation passes?}
+    J -- No --> H
+    J -- Yes --> K[PR opened]
+    K --> L[Review and CI]
+    L --> M{Approved?}
+    M -- No --> H
+    M -- Yes --> N[Ready to merge]
+    N --> O[Release]
+    O --> P[Post-release verification]
+    P --> Q[Cleanup and learning capture]
 ```
 
 ## 1. Intake and Refinement

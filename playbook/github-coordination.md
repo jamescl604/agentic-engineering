@@ -68,8 +68,14 @@ Recommended labels:
 
 Most teams should start with four statuses:
 
-```text
-Todo -> In Progress -> In Review -> Done
+```mermaid
+stateDiagram-v2
+    [*] --> Todo
+    Todo --> InProgress : assignee starts work
+    InProgress --> InReview : PR opened
+    InReview --> InProgress : changes requested
+    InReview --> Done : approved, merged, released
+    Done --> [*]
 ```
 
 Definitions:
@@ -85,16 +91,19 @@ This is enough for teams without formal release trains, sprint planning, or regu
 
 Add more statuses only when the team needs to distinguish workflow states that the simple flow conflates. Common reasons: formal refinement gates, release tracking separate from merge readiness, or multiple teams coordinating releases.
 
-```text
-Backlog
--> Ready for Refinement
--> Ready for Agent
--> In Progress
--> In Review
--> Ready to Merge
--> Ready for Release
--> Released
--> Done
+```mermaid
+stateDiagram-v2
+    [*] --> Backlog
+    Backlog --> ReadyForRefinement : needs scoping
+    ReadyForRefinement --> ReadyForAgent : scope clear
+    ReadyForAgent --> InProgress : assignee starts
+    InProgress --> InReview : PR opened
+    InReview --> InProgress : changes requested
+    InReview --> ReadyToMerge : approved + CI green
+    ReadyToMerge --> ReadyForRelease : merged
+    ReadyForRelease --> Released : deployed
+    Released --> Done : verified + cleaned up
+    Done --> [*]
 ```
 
 When to expand:

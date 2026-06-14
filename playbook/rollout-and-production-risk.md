@@ -50,6 +50,14 @@ Database and API migrations need sequencing.
 
 Prefer expand-and-contract patterns:
 
+```mermaid
+flowchart LR
+    A["1. Add backward-compatible\nschema or API support"] --> B["2. Deploy code that handles\nold and new forms"]
+    B --> C["3. Migrate data"]
+    C --> D["4. Switch reads/writes\nto new form"]
+    D --> E["5. Remove old paths"]
+```
+
 1. add backward-compatible schema or API support
 2. deploy code that can use old and new forms
 3. migrate data
