@@ -6,13 +6,9 @@ The goal is not to run the most agents. The goal is to merge more small, safe, r
 
 ## Where to Start
 
-| You are… | Start here |
-|---|---|
-| New to professional software engineering | [Engineering practices](playbook/engineering-practices.md) — a standalone field guide to the habits, practices, and mindset that separate professional engineering from code that happens to work |
-| An experienced engineer who wants to start immediately | [One-hour quickstart](training/quickstart.md) |
-| New to agentic engineering and want structured training | [Training curriculum](training/README.md) |
-| Looking for the full playbook and guide map | [Agentic Engineering Playbook](playbook/) |
-| Looking for a specific topic | [Guide map](#guide-map) below |
+1. **[Engineering practices](playbook/engineering-practices.md)** — a standalone field guide to the habits, practices, and mindset that separate professional engineering from code that happens to work.
+2. **[Agentic Engineering Playbook](playbook/)** — the operating model, workflow guidance, and reference chapters for using AI coding agents on production repos.
+3. **[Training curriculum](training/README.md)** — hands-on exercises in a practice repo to put the playbook into action.
 
 ## Core Principles
 
