@@ -16,11 +16,11 @@ Use this playbook as a lightweight operating model for:
 
 Start with the overview, then jump to the workflow you need. The topic files are intentionally focused so humans and agents can find the right guidance quickly.
 
-New to professional software engineering? Start with [Engineering practices](docs/engineering-practices.md) — a standalone field guide covering code design, testing, debugging, security, observability, and the working habits that make an engineer effective. Everything else in this playbook builds on those fundamentals.
+New to professional software engineering? Start with [Engineering practices](engineering-practices.md) — a standalone field guide covering code design, testing, debugging, security, observability, and the working habits that make an engineer effective. Everything else in this playbook builds on those fundamentals.
 
-Experienced engineers who want to start immediately should read the [One-hour quickstart](training/quickstart.md).
+Experienced engineers who want to start immediately should read the [One-hour quickstart](../training/quickstart.md).
 
-New employees should start with [Agentic engineering training](training/README.md), which teaches the playbook through hands-on practice in a simple fictitious repo.
+New employees should start with [Agentic engineering training](../training/README.md), which teaches the playbook through hands-on practice in a simple fictitious repo.
 
 ## Core Operating Principles
 
@@ -53,20 +53,20 @@ New employees should start with [Agentic engineering training](training/README.m
 
 ## Guide Map
 
-- [Engineering practices](docs/engineering-practices.md)
-- [Agentic engineering overview](docs/agentic-engineering-overview.md)
-- [Claude Code operating model](docs/claude-code-operating-model.md)
-- [Worktrees and parallel work](docs/worktrees-and-parallel-work.md)
-- [Multi-human collaboration](docs/multi-human-collaboration.md)
-- [GitHub coordination](docs/github-coordination.md)
-- [Pull request hygiene](docs/pull-request-hygiene.md)
-- [Safety and permissions](docs/safety-and-permissions.md)
-- [Validation and evidence](docs/validation-and-evidence.md)
-- [Rollout and production risk](docs/rollout-and-production-risk.md)
-- [Anti-patterns](docs/anti-patterns.md)
-- [Throughput and minimal setup](docs/throughput-and-minimal-setup.md)
-- [Quick reference](docs/quick-reference.md)
-- [Agentic engineering training](training/README.md)
+- [Engineering practices](engineering-practices.md)
+- [Agentic engineering overview](agentic-engineering-overview.md)
+- [Claude Code operating model](claude-code-operating-model.md)
+- [Worktrees and parallel work](worktrees-and-parallel-work.md)
+- [Multi-human collaboration](multi-human-collaboration.md)
+- [GitHub coordination](github-coordination.md)
+- [Pull request hygiene](pull-request-hygiene.md)
+- [Safety and permissions](safety-and-permissions.md)
+- [Validation and evidence](validation-and-evidence.md)
+- [Rollout and production risk](rollout-and-production-risk.md)
+- [Anti-patterns](anti-patterns.md)
+- [Throughput and minimal setup](throughput-and-minimal-setup.md)
+- [Quick reference](quick-reference.md)
+- [Agentic engineering training](../training/README.md)
 
 ## Recommended First Pass Setup
 

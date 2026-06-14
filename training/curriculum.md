@@ -9,7 +9,7 @@ Goal: make sure the learner can participate in the full workflow before touching
 Read:
 
 - [Setup and prerequisites](setup-and-prerequisites.md)
-- [GitHub coordination](../docs/github-coordination.md)
+- [GitHub coordination](../playbook/github-coordination.md)
 
 Practice:
 
@@ -30,8 +30,8 @@ Goal: understand what agentic engineering is and what humans still own.
 
 Read:
 
-- [Agentic engineering overview](../docs/agentic-engineering-overview.md)
-- [Safety and permissions](../docs/safety-and-permissions.md)
+- [Agentic engineering overview](../playbook/agentic-engineering-overview.md)
+- [Safety and permissions](../playbook/safety-and-permissions.md)
 
 Practice:
 
@@ -50,8 +50,8 @@ Goal: learn to inspect before editing.
 
 Read:
 
-- [Claude Code operating model](../docs/claude-code-operating-model.md)
-- [GitHub coordination](../docs/github-coordination.md)
+- [Claude Code operating model](../playbook/claude-code-operating-model.md)
+- [GitHub coordination](../playbook/github-coordination.md)
 - [End-to-end delivery workflow](end-to-end-delivery-workflow.md)
 - [Acme Orders practice repo](acme-orders-practice-repo.md)
 
@@ -73,8 +73,8 @@ Goal: use an agent as an engineering executor, not an uncontrolled code generato
 
 Read:
 
-- [Quick reference](../docs/quick-reference.md)
-- [Validation and evidence](../docs/validation-and-evidence.md)
+- [Quick reference](../playbook/quick-reference.md)
+- [Validation and evidence](../playbook/validation-and-evidence.md)
 
 Practice:
 
@@ -95,8 +95,8 @@ Goal: make small changes easy to review.
 
 Read:
 
-- [Worktrees and parallel work](../docs/worktrees-and-parallel-work.md)
-- [Pull request hygiene](../docs/pull-request-hygiene.md)
+- [Worktrees and parallel work](../playbook/worktrees-and-parallel-work.md)
+- [Pull request hygiene](../playbook/pull-request-hygiene.md)
 
 Practice:
 
@@ -116,8 +116,8 @@ Goal: coordinate with other humans using the same repo.
 
 Read:
 
-- [Multi-human collaboration](../docs/multi-human-collaboration.md)
-- [Throughput and minimal setup](../docs/throughput-and-minimal-setup.md)
+- [Multi-human collaboration](../playbook/multi-human-collaboration.md)
+- [Throughput and minimal setup](../playbook/throughput-and-minimal-setup.md)
 
 Practice:
 
@@ -136,8 +136,8 @@ Goal: learn when a technically small change is operationally risky.
 
 Read:
 
-- [Safety and permissions](../docs/safety-and-permissions.md)
-- [Rollout and production risk](../docs/rollout-and-production-risk.md)
+- [Safety and permissions](../playbook/safety-and-permissions.md)
+- [Rollout and production risk](../playbook/rollout-and-production-risk.md)
 
 Practice:
 
@@ -173,7 +173,7 @@ Goal: carry a backlog item beyond PR approval through release verification and c
 Read:
 
 - [End-to-end delivery workflow](end-to-end-delivery-workflow.md)
-- [Rollout and production risk](../docs/rollout-and-production-risk.md)
+- [Rollout and production risk](../playbook/rollout-and-production-risk.md)
 
 Practice:
 

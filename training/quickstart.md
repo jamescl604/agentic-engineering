@@ -136,8 +136,8 @@ For everything else, use the five rules above and keep moving.
 
 When you're ready to go deeper:
 
-- [Agentic engineering overview](../docs/agentic-engineering-overview.md) — understand the operating model
-- [Pull request hygiene](../docs/pull-request-hygiene.md) — PR templates and agent code review checklist
-- [Validation and evidence](../docs/validation-and-evidence.md) — evidence standards
-- [Safety and permissions](../docs/safety-and-permissions.md) — what agents should never do
+- [Agentic engineering overview](../playbook/agentic-engineering-overview.md) — understand the operating model
+- [Pull request hygiene](../playbook/pull-request-hygiene.md) — PR templates and agent code review checklist
+- [Validation and evidence](../playbook/validation-and-evidence.md) — evidence standards
+- [Safety and permissions](../playbook/safety-and-permissions.md) — what agents should never do
 - [Full training curriculum](curriculum.md) — the complete onboarding path

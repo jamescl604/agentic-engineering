@@ -8,8 +8,7 @@ The focus is practical agentic engineering: workflows, guardrails, coordination 
 
 ## Repository Map
 
-- `Agentic_Engineering_Playbook.md` is the top-level entry point. It links to the detailed guidance and should stay concise.
-- `docs/` contains the playbook chapters: operating model, GitHub coordination, worktrees, validation, PR hygiene, safety, production risk, and multi-human collaboration.
+- `playbook/` contains the playbook entry point (`README.md`) and all chapter files: operating model, GitHub coordination, worktrees, validation, PR hygiene, safety, production risk, and multi-human collaboration.
 - `training/` contains the curriculum, exercises, facilitator guide, rubric, setup instructions, and end-to-end delivery workflow for teaching the playbook.
 - `training/acme-orders-practice-repo.md` documents the companion practice repo and how it supports the training.
 
