@@ -47,6 +47,5 @@ The goal is not to run the most agents. The goal is to merge more small, safe, r
 
 **Training**
 - [Training overview](training/README.md)
-- [Quickstart](training/quickstart.md)
 - [Curriculum](training/curriculum.md)
 - [Exercises](training/exercises.md)

@@ -4,10 +4,6 @@ This training path helps a new employee build from zero familiarity with the pla
 
 The training uses a simple fictitious repo, **Acme Orders**, so learners can practice real workflows without production risk.
 
-## Quickstart
-
-Experienced engineers who need to start today should read [Quickstart: Agentic Engineering in One Hour](quickstart.md). It covers the essential habits without the full curriculum.
-
 ## Training Goals
 
 By the end of the full training, a learner should be able to:
@@ -28,7 +24,6 @@ By the end of the full training, a learner should be able to:
 
 ## Training Files
 
-- [Quickstart](quickstart.md)
 - [Curriculum](curriculum.md)
 - [Setup and prerequisites](setup-and-prerequisites.md)
 - [End-to-end delivery workflow](end-to-end-delivery-workflow.md)
